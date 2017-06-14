@@ -21,3 +21,6 @@ p.important {
 	font-style: italic;
 }
 
+.red {
+	color: #cc0000; /*this is red*/
+}
