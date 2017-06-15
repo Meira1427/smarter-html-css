@@ -53,6 +53,7 @@ blockquote {
 
 .myborder {
 	border: 2px groove #90C3D4;
+	padding: .3em;
 }
 
 .weird {
@@ -60,6 +61,7 @@ blockquote {
 	border-right: 2px dotted #567890;
 	border-bottom: 4px solid #90c3d4;
 	border-left: 2px dotted #567890;
+	padding: .3em;
 }
 
 .typewriter {
