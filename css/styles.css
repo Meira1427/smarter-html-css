@@ -89,3 +89,10 @@ blockquote {
   border: 3px solid #C390D4;
   padding: .5em;
 }
+
+#dog {
+	margin: 3em;
+	padding: 1em;
+	width: 500px;
+	align-items: center;
+}
