@@ -91,7 +91,9 @@ blockquote {
 }
 
 #dog {
-	margin: 2em;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	border: 2px solid navy;
 	padding: 1em;
 	width: 400px;
