@@ -51,6 +51,10 @@ blockquote {
 	color: darkslategray;
 }
 
+.myborder {
+	border: 2px solid #90C3D4;
+}
+
 .typewriter {
 	font-family: "Courier New", Courier, monospace;
 }
