@@ -18,6 +18,9 @@ h2 {
 h3 {
 	font-family: "Comic Sans MS", cursive;
 	font-size: 1.3em;
+}
+
+h1, h2, h3 {
 	text-align: center;
 }
 
@@ -47,7 +50,7 @@ p.spacy {
 }
 
 blockquote {
-	font-size: .85em;
+	font-size: 1.2em;
 	color: darkslategray;
 }
 
