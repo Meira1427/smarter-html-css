@@ -82,3 +82,10 @@ blockquote {
 #specialid {
 	color: #D4A190;
 }
+
+#footer {
+  font-size: .85em;
+  color: navy;
+  border: 3px solid #C390D4;
+  padding: .5em;
+}
