@@ -54,6 +54,18 @@ blockquote {
 	color: darkslategray;
 }
 
+img.wrap-left {
+  float: left;
+}
+
+img.wrap-right {
+  float: right;
+}
+
+p.no-wrap {
+   clear: both;
+}
+
 .myborder {
 	border: 2px groove #90C3D4;
 	padding: .3em;
@@ -84,10 +96,11 @@ blockquote {
 }
 
 #footer {
-  font-size: .85em;
-  color: navy;
-  border: 3px solid #C390D4;
-  padding: .5em;
+	clear: both
+	font-size: .85em;
+	color: navy;
+	border: 3px solid #C390D4;
+	padding: .5em;
 }
 
 #dog {
