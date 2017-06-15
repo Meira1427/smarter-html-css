@@ -1,14 +1,23 @@
 p {
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-size: 1.2em;
+	text-indent: 1.5em;
+	text-align: justify;
 }
 
 h1 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
+	font-size: 2.5em;
+}
+
+h2 {
+	font-family: "Comic Sans MS", cursive;
 	font-size: 2em;
 }
 
 h3 {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 1.3em;
 	text-align: center;
 }
 
@@ -17,18 +26,20 @@ p.important {
 	font-weight:900;
 }
 
+/* removing these classes and adding to main paragraph formatting
 p.justified {
 	text-align: justify;
 }
+
+p.indented {
+	text-indent: 1.5em;
+}
+*/
 
 p.spacy {
 	letter-spacing: .3em;
 	word-spacing: .1em;
 	line-height: 1.8em;
-}
-
-p.indented {
-	text-indent: 1.5em;
 }
 
 blockquote {
