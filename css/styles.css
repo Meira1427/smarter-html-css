@@ -26,6 +26,10 @@ p.important {
 	font-weight:900;
 }
 
+p.whitespace {
+	margin: .5em 1em .5em 1.5em;
+}
+
 /* removing these classes and adding to main paragraph formatting
 p.justified {
 	text-align: justify;
