@@ -52,7 +52,14 @@ blockquote {
 }
 
 .myborder {
-	border: 2px outset purple;
+	border: 2px groove #90C3D4;
+}
+
+.weird {
+	border-top: 2px dashed #71266e;
+	border-right: 2px dotted #567890;
+	border-bottom: 4px solid #90c3d4;
+	border-left: 2px dotted #567890;
 }
 
 .typewriter {
