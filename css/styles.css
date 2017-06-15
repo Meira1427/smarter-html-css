@@ -24,3 +24,9 @@ p.important {
 .red {
 	color: #cc0000; /*this is red*/
 }
+
+p.spacy {
+	letter-spacing: .3em;
+	word-spacing: -.1em;
+	line-height: 1.8em;
+}
