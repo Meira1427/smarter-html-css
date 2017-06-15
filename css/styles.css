@@ -52,7 +52,7 @@ blockquote {
 }
 
 .myborder {
-	border: 2px solid #90C3D4;
+	border: 2px outset purple;
 }
 
 .typewriter {
