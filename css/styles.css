@@ -5,6 +5,13 @@ p {
 	text-align: justify;
 }
 
+a {
+	margin: 1em;
+	padding: 1em;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 2em;
+}
+
 h1 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
 	font-size: 2.5em;
