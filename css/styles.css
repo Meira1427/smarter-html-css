@@ -10,6 +10,16 @@ a {
 	padding: 1em;
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 1.2em;
+	color: darkslategray;
+}
+
+a:visited {
+	color: deeppink;
+}
+
+a:hover {
+	font-size: 1.6em;
+	color: darkgreen;
 }
 
 h1 {
