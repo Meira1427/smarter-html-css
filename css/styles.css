@@ -40,6 +40,13 @@ p.whitespace {
 	margin: .5em 1em .5em 1.5em;
 }
 
+button {
+	font-family: "Comic Sans MS", cursive;
+	font-size: .9em;
+	color: #3a1356;
+
+}
+
 /* removing these classes and adding to main paragraph formatting
 p.justified {
 	text-align: justify;
