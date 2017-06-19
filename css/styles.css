@@ -110,7 +110,7 @@ p.no-wrap {
 	padding: .5em;
 }
 
-#dog {
+.dog {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
