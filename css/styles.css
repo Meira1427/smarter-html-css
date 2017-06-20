@@ -41,6 +41,14 @@ h1, h2, h3 {
 	text-align: center;
 }
 
+ul {
+	font-family: Georgia, Times, serif;
+	font-size: 1.5em;
+	margin-bottom: .3em;
+	margin-left: 2em;
+	list-style-type: circle;
+}
+
 p.important {
 	font-size: 1.5em;
 	font-weight:900;
