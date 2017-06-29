@@ -62,14 +62,24 @@ table {
   	font-family: Georgia, Times, serif;
   	font-size: 1.5em;
   	text-align: center;
+  	border-collapse: collapse;
+  	margin: auto;
 }
 
-th {
+th.toprow {
 	border-bottom: 2px groove navy;
 }
 
+th.side {
+	text-align: center;
+	}
+
 td {
 	border: 1px solid black;
+}
+
+td, th {
+	padding: 1em;
 }
 
 button {
