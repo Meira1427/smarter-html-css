@@ -68,18 +68,21 @@ table {
 
 th.toprow {
 	border-bottom: 2px groove navy;
+	background-color: lightcyan;
 }
 
 th.side {
 	text-align: center;
+	background-color: aliceblue;
 	}
 
 td {
 	border: 1px solid black;
+	background-color: whitesmoke;
 }
 
 td, th {
-	padding: 1em;
+	padding: .75em;
 }
 
 button {
