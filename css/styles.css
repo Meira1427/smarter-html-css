@@ -92,10 +92,6 @@ button {
 
 }
 
-input, textarea {
-	display: block;
-}
-
 blockquote {
 	font-size: 1.2em;
 	color: darkslategray;
