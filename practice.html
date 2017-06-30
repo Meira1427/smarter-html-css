@@ -93,19 +93,24 @@
 	<div id="myform">
 	<h4>A Form to Nowhere</h4>
 		<form>
-		Enter Your First Name:
-		<input type="text" name="first_name" size="20" maxlength="30">
+		<fieldset>
+		<legend>Name & House</legend>
+		<label for="firstname">First Name:</label>
+		<input type="text" name="first_name" size="20" maxlength="30" id="firstname">
 		<br>
 		House:
-		<input type="radio" name="hp" value="Hufflepuff"> Hufflepuff
-		<input type="radio" name="hp" value="Gryffindore"> Gryffindore
-		<input type="radio" name="hp" value="Ravenclaw"> Ravenclaw
-		<input type="radio" name="hp" value="Slytherin"> Slytherin
+		<input type="radio" name="hp" value="Hufflepuff" id="huff"><label for="huff"> Hufflepuff</label>
+		<input type="radio" name="hp" value="Gryffindore" id ="gry"><label for="gry"> Gryffindore</label>
+		<input type="radio" name="hp" value="Ravenclaw" id="rc"><label for="rc"> Ravenclaw</label>
+		<input type="radio" name="hp" value="Slytherin" id="sly"><label for="sly"> Slytherin</label>
 		<br>
+		</fieldset>
+		<fieldset>
+		<legend>Personal Questions</legend>
 		Do you have any pets?
-		<input type="checkbox" name="pets" value="cat">Cat
-		<input type="checkbox" name="pets" value="dog">Dog
-		<input type="checkbox" name="pets" value="horse">Horse
+		<input type="checkbox" name="pets" value="cat" id="cats"><label for="cats">Cat</label>
+		<input type="checkbox" name="pets" value="dog" id="dogs"><label for="dogs">Dog</label>
+		<input type="checkbox" name="pets" value="horse" id="horses"><label for="horses">Horse</label>
 		<br>
 		Favorite Operating System:
 		<select name="ops">
@@ -119,6 +124,7 @@
 		<textarea name="message" rows="5" cols="30"></textarea>
 		<br>
 		<input type="submit" value="Submit Form">
+		</fieldset>
 		</form>
 	</div>
 	

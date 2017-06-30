@@ -111,13 +111,36 @@ blockquote {
 	margin-bottom: 1em;
 }
 
-#myform {
+form {
+	font-family: Georgia, Times, serif;
 	font-size: 1.2em;
+	color: #3D4C46;
+	line-height: 1.7em;
+}
+
+input[type="text"], textarea {
+	font-family: 'Comic Sans MS', cursive;
+	font-size:	1.1em;
+}
+
+input[type="submit"] {
+	font-size: 1.5em;
+	background-color: #89C9CD;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+legend {
+	font-weight: 700;
+}
+
+/* doing a fieldset and formatting
+#myform {
 	color: #3D4C46;
 	border: 3px inset #881144;
 	padding: .5em;
 	margin-top: 1em;
 }
+*/
 
 .dog {
 	display: block;
