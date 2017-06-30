@@ -107,6 +107,16 @@ blockquote {
 	color: navy;
 	border: 3px solid #C390D4;
 	padding: .5em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+#myform {
+	font-size: 1.2em;
+	color: #3D4C46;
+	border: 3px inset #881144;
+	padding: .5em;
+	margin-top: 1em;
 }
 
 .dog {
