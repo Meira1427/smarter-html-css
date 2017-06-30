@@ -133,15 +133,6 @@ legend {
 	font-weight: 700;
 }
 
-/* doing a fieldset and formatting
-#myform {
-	color: #3D4C46;
-	border: 3px inset #881144;
-	padding: .5em;
-	margin-top: 1em;
-}
-*/
-
 .dog {
 	display: block;
 	margin-left: auto;
