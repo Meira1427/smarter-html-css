@@ -1,9 +1,18 @@
-p {
+body {
+	width: 100%;
+	font-size: 1em;
 	font-family: Georgia, "Times New Roman", Times, serif;
+	color: black;
+	background-color: #d1dce0;
+}
+
+p {
 	font-size: 1.2em;
 	text-indent: 1.5em;
 	text-align: justify;
 }
+
+/* styling the links */
 
 a {
 	margin: 1em;
@@ -21,6 +30,8 @@ a:hover {
 	font-size: 1.4em;
 	color: darkgreen;
 }
+
+/*styling headers  */
 
 h1 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
@@ -41,16 +52,62 @@ h1, h2, h3 {
 	text-align: center;
 }
 
-.ital {
-	font-style: italic;
+/* for arranging divs */
+
+div#ipsum, div#header {
+	width: 85%;
+	margin: 0 auto 0 auto;
 }
 
-.red {
-	color: #e63e62;
+div#ipsum {
+	color: #57362b;
 }
+
+div.left3 {
+	width: 31%;
+	float: left;
+}
+
+div.middle3 {
+	width: 31%;
+	float: left;
+	margin-left: 2%;
+}
+
+div.right3 {
+	width: 31%;
+	float: right;
+}
+
+.nowrap {
+	clear: both;
+	font-size: .10em;
+	margin: 5em;
+}
+
+div.left2 {
+	width: 48%;
+	float: left;
+}
+
+div.right2 {
+	width: 48%;
+	float: right;
+}
+
+div#footer {
+	clear: both
+	font-size: .85em;
+	color: navy;
+	border: 3px solid #C390D4;
+	padding: .5em;
+	margin-top: 2em;
+	margin-bottom: 1em;
+}
+
+/* lists and tables */
 
 ul {
-	font-family: Georgia, Times, serif;
 	font-size: 1.5em;
 	margin-bottom: .3em;
 	margin-left: 2em;
@@ -63,7 +120,7 @@ table {
   	font-size: 1.5em;
   	text-align: center;
   	border-collapse: collapse;
-  	margin: auto;
+  	margin: 3em auto 3em auto;
 }
 
 th.toprow {
@@ -85,11 +142,21 @@ td, th {
 	padding: .75em;
 }
 
+/* special styles for exercises */
+
+.ital {
+	font-style: italic;
+}
+
+.red {
+	color: #e63e62;
+}
+
 button {
 	font-family: "Comic Sans MS", cursive;
 	font-size: .9em;
 	color: #3a1356;
-
+	margin-left: 15%;
 }
 
 blockquote {
@@ -101,14 +168,12 @@ blockquote {
 	color: #D4A190;
 }
 
-#footer {
-	clear: both
-	font-size: .85em;
-	color: navy;
-	border: 3px solid #C390D4;
-	padding: .5em;
-	margin-top: 2em;
-	margin-bottom: 1em;
+/* the form to nowhere */
+
+.myform {
+	width: 80%;
+	margin: 5em auto 5em auto
+
 }
 
 form {
@@ -133,6 +198,8 @@ legend {
 	font-weight: 700;
 }
 
+/* related to photos */
+
 .dog {
 	display: block;
 	margin-left: auto;
@@ -149,7 +216,7 @@ legend {
 	margin-right: auto;
 }
 
-/* no longer used */
+/* no longer used; relates to old exercises 
 
 img.wrap-left {
   float: left;
@@ -194,3 +261,5 @@ p.spacy {
 	border: 2px groove #90C3D4;
 	padding: .3em;
 }
+
+*/
