@@ -1,9 +1,11 @@
+/* body and paragraphs */
+
 body {
 	width: 100%;
 	font-size: 1em;
 	font-family: Georgia, "Times New Roman", Times, serif;
 	color: black;
-	background-color: #d1dce0;
+	background-color: #d8d7de;
 }
 
 p {
@@ -23,15 +25,15 @@ a {
 }
 
 a:visited {
-	color: deeppink;
+	color: #40071D;
 }
 
 a:hover {
 	font-size: 1.4em;
-	color: darkgreen;
+	color: #074029;
 }
 
-/*styling headers  */
+/* styling headers */
 
 h1 {
 	font-family:"Trebuchet MS", Helvetica, sans-serif;
@@ -54,13 +56,28 @@ h1, h2, h3 {
 
 /* for arranging divs */
 
-div#ipsum, div#header {
-	width: 85%;
-	margin: 0 auto 0 auto;
+div#header {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #0d0740; 
+}
+
+div#header h1 {
+	color: #ebedd8;
+}
+
+div#space {
+	visibility: hidden;
+	width: 100%;
+	margin-top: 4%;
 }
 
 div#ipsum {
-	color: #57362b;
+	width: 85%;
+	margin: 0 auto 0 auto;
+	color: #0d0740;
 }
 
 div.left3 {
@@ -98,8 +115,8 @@ div.right2 {
 div#footer {
 	clear: both
 	font-size: .85em;
-	color: navy;
-	border: 3px solid #C390D4;
+	color: #0d0740;
+	border: 3px solid #40071D;
 	padding: .5em;
 	margin-top: 2em;
 	margin-bottom: 1em;
@@ -161,11 +178,13 @@ button {
 
 blockquote {
 	font-size: 1.2em;
-	color: darkslategray;
+	color: #ebedd8;
+	width: 55%;
+	margin: 0 auto 2% auto;
 }
 
 #specialid {
-	color: #D4A190;
+	color: #3A4007;
 }
 
 /* the form to nowhere */
