@@ -71,7 +71,26 @@ div#header h1 {
 div#space {
 	visibility: hidden;
 	width: 100%;
-	margin-top: 4%;
+	margin-top: 1%;
+}
+
+div#navbar {
+	background-color: #071D40;
+	color: white;
+	width: 15%;
+	left: 0;
+}
+
+div#navbar ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+div#navbar ul li a {
+	font-family: Georgia, Times, serif;
+	font-weight: bold;
+	font-size: 1.1em;
+	color: white;
 }
 
 div#ipsum {
@@ -118,8 +137,16 @@ div#footer {
 	color: #0d0740;
 	border: 3px solid #40071D;
 	padding: .5em;
-	margin-top: 2em;
-	margin-bottom: 1em;
+	margin: 2em 2em 1em 2em;
+}
+
+/* adjust anchor behavior for fixed header */
+.anchor:before {
+	display: block;
+	content: " ";
+	height: 200px;
+	margin-top: -200px;
+	visibility: hidden;
 }
 
 /* lists and tables */
