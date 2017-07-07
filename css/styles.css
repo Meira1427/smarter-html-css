@@ -151,6 +151,13 @@ div.right2 {
 	float: right;
 }
 
+div#java {
+	background-image: url("java.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+}
+
 div#footer {
 	clear: both
 	font-size: .85em;
