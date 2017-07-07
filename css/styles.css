@@ -75,22 +75,42 @@ div#space {
 }
 
 div#navbar {
-	background-color: #071D40;
-	color: white;
-	width: 15%;
-	left: 0;
+	width: 100%;
 }
 
 div#navbar ul {
 	list-style-type: none;
-	padding: 0;
+	margin: 1.5em;
+}
+
+div#navbar ul li {
+	text-align: center;
+	display: inline;
+	width: 19%;
+	float: left;
+	margin-right: .5em;
+}
+
+li.colorButtons {
+	background-color: #2A0740;
+}
+
+li.colorButtons:hover {
+	background-color: #07400D;
+}
+
+li.colorButtons:active {
+	background-color: #073940;
 }
 
 div#navbar ul li a {
 	font-family: Georgia, Times, serif;
 	font-weight: bold;
-	font-size: 1.1em;
+	font-size: .7em;
+	text-decoration: none;
 	color: white;
+	display: block;
+	padding .5em;
 }
 
 div#ipsum {
@@ -196,6 +216,10 @@ td, th {
 	color: #e63e62;
 }
 
+div.lowerpage {
+	margin-top: 12%;
+}
+
 button {
 	font-family: "Comic Sans MS", cursive;
 	font-size: .9em;
@@ -212,6 +236,7 @@ blockquote {
 
 #specialid {
 	color: #3A4007;
+	margin-top: 7em;
 }
 
 /* the form to nowhere */
