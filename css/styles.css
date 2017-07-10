@@ -294,6 +294,12 @@ legend {
 	margin-right: auto;
 }
 
+/* imbedded video */
+iframe {
+	display: block;
+	margin: 1% auto 3% auto;
+}
+
 /* no longer used; relates to old exercises 
 
 img.wrap-left {
